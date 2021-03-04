@@ -1,0 +1,13 @@
+.button-large{
+    width: 312px;
+    height: 48px;
+    background: rgba(250, 244, 240, 0.05);
+    /* ligth+ */
+
+    border: 1px solid #FAF4F0;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: var(--borderRadius);
+    color: var(--baseColor9)
+}

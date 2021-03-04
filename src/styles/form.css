@@ -1,0 +1,30 @@
+.form-group{
+    display: block;
+    margin-bottom: 32px;
+}
+.form-group__label{ 
+}
+
+.form-group__input{
+    display: flex;
+    flex-direction: column;
+    
+    width: 312px;
+    height: 48px;
+
+    margin-top: 12px;
+    padding:  0 0 0 8px;
+    border: 0;
+    border-radius: var(--borderRadius);
+
+    background: var(--baseColor7);
+    color: var(--baseColor-inverse);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.input::placeholder {
+    color: var(--baseColor-inverse);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
