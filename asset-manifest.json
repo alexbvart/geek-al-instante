@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/geek-al-instante/static/css/main.e38cc564.chunk.css",
+    "main.js": "/geek-al-instante/static/js/main.2fcadd4a.chunk.js",
+    "main.js.map": "/geek-al-instante/static/js/main.2fcadd4a.chunk.js.map",
+    "runtime-main.js": "/geek-al-instante/static/js/runtime-main.172ef009.js",
+    "runtime-main.js.map": "/geek-al-instante/static/js/runtime-main.172ef009.js.map",
+    "static/js/2.6bb0c9bc.chunk.js": "/geek-al-instante/static/js/2.6bb0c9bc.chunk.js",
+    "static/js/2.6bb0c9bc.chunk.js.map": "/geek-al-instante/static/js/2.6bb0c9bc.chunk.js.map",
+    "index.html": "/geek-al-instante/index.html",
+    "static/css/main.e38cc564.chunk.css.map": "/geek-al-instante/static/css/main.e38cc564.chunk.css.map",
+    "static/js/2.6bb0c9bc.chunk.js.LICENSE.txt": "/geek-al-instante/static/js/2.6bb0c9bc.chunk.js.LICENSE.txt",
+    "static/media/emoji-smile.57afd3ca.svg": "/geek-al-instante/static/media/emoji-smile.57afd3ca.svg",
+    "static/media/icons_favorite.5e45670d.svg": "/geek-al-instante/static/media/icons_favorite.5e45670d.svg",
+    "static/media/logo.8b525a66.svg": "/geek-al-instante/static/media/logo.8b525a66.svg",
+    "static/media/logoSmall.a21f8151.svg": "/geek-al-instante/static/media/logoSmall.a21f8151.svg",
+    "static/media/shopping-cart.090948e0.svg": "/geek-al-instante/static/media/shopping-cart.090948e0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.172ef009.js",
+    "static/js/2.6bb0c9bc.chunk.js",
+    "static/css/main.e38cc564.chunk.css",
+    "static/js/main.2fcadd4a.chunk.js"
+  ]
+}
