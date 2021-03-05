@@ -1,16 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {Link} from 'react-router-dom'
+
+
 const NotFound = () => {
     return ( 
         <>
-            <div class="container">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+            <div className="container">
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
             </div>
 
             <section className='log'>
@@ -27,7 +30,9 @@ const NotFound = () => {
                     {/* <p className='log__container--register'>
                         You don't have an account?<a className="call-to-acction" href=''>Register </a>
                     </p> */}
-                    <button className='button-large'>Continue collecting</button>
+                    <Link to="/">
+                        <button className='button-large'>Continue collecting</button>
+                    </Link> 
 
                 </section>
             </section>

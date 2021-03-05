@@ -88,7 +88,10 @@ a{
 }
 
 .wrapper {
-  padding: 0 30px;
+  padding: 2rem 4%;
+}
+.wrapper--header{
+  padding: 0 4%;
 }
 .grid {
   display: grid;
@@ -116,13 +119,6 @@ a{
 @media screen and (min-width: 1024px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .header-total {
-    border: none;
-  }
-  .header-grid {
-    display: grid;
-    grid-template-columns: 1fr 200px;
   }
 }
 

@@ -1,17 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {Link} from 'react-router-dom'
+
 import '../styles/comicPath.css'
 const Register = () => {
     return ( 
         <>
-            <div class="container">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+            <div className="container">
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
             </div>
 
             <section className='log'>
@@ -41,7 +43,7 @@ const Register = () => {
                         </div> */}
                     </form>
                     <p className='log__container--register'>
-                        You are already registered ? <a className="call-to-acction" href=''>log in</a>
+                        You are already registered ? <Link className="call-to-acction" to='/login'> Log in</Link>
                     </p>
                 </section>
             </section>

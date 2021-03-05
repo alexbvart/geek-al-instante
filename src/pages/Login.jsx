@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
+import {Link} from 'react-router-dom'
+
 import comicPath from '../components/comicPath';
 import '../styles/log.css';
 const Login = () => {
     return (
         <>
-            <div class="container">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+            <div className="container">
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
             </div>
 
             <section className='log'>
@@ -38,7 +40,7 @@ const Login = () => {
                         </div> */}
                     </form>
                     <p className='log__container--register'>
-                        You don't have an account?<a className="call-to-acction" href=''>Register </a>
+                        You don't have an account? <Link className="call-to-acction" to="/register" >Register </Link>
                     </p>
                 </section>
             </section>

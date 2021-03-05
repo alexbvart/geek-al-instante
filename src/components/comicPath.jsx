@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/comicPath.css'
 const comicPath = () => {
     return (
-            <div class="container">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-            </div>
+        <div className="container">
+            <div className="item"></div>
+            <div className="item"></div>
+            <div className="item"></div>
+            <div className="item"></div>
+            <div className="item"></div>
+            <div className="item"></div>
+            <div className="item"></div>
+            <div className="item"></div>
+        </div>
     );
 }
 export default comicPath;
